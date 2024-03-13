@@ -1,0 +1,52 @@
+.navbar {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: green;
+}
+.firstvases {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+.fallsummer {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.Inspirationplants {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.sale {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+}
+.OFF {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+body {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.grow {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+@media screen and(min-width:150px) and(max-width:1000px){
+  body{
+    margin-left: 10px ;
+    margin-right: 10px;
+  }
+  .navbar {
+    display: grid;
+    grid-template-columns: min-content;
+    background-color: green;
+font: size 25px;
+  }
+  .fallsummer {
+    display: grid;
+    grid-template-columns: auto auto;
+    
+  }
+
+
+}
